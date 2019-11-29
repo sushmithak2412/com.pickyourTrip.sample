@@ -1,0 +1,242 @@
+[
+	{
+		"name": "homePage.LoginButton",
+		"lookupdetails": {
+			"findBy": "xpath",
+			"value": "//a[text()='Login']"
+		}
+	},
+	{
+		"name": "loginPage.phoneNumber",
+		"lookupdetails": {
+			"findBy": "xpath",
+			"value": "//input[@placeholder='Mobile Number']"
+		}
+	},
+	{
+		"name": "loginPage.password",
+		"lookupdetails": {
+			"findBy": "xpath",
+			"value": "//input[@placeholder='Password']"
+		}
+	},
+	{
+		"name": "loginPage.loginButton",
+		"lookupdetails": {
+			"findBy": "xpath",
+			"value": "//button[text()='Login']"
+		}
+	},
+	{
+		"name": "yourVaction.logo",
+		"lookupdetails": {
+			"findBy": "xpath",
+			"value": "//img[@alt='pickyourtrail']"
+		}
+	},
+	{
+		"name": "yourVacation.planavacationtotextbox",
+		"lookupdetails": {
+			"findBy": "xpath",
+			"value": "//input[@placeholder='Plan a vacation to...']"
+		}
+	},
+	{
+		"name": "yourVacation.autosuggestedValue",
+		"lookupdetails": {
+			"findBy": "xpath",
+			"value": "//div[@class='search-input']/following-sibling::div/ul/li"
+		}
+	},
+	{
+		"name": "yourVacation.woudLikeTo.seelabel",
+		"lookupdetails": {
+			"findBy": "xpath",
+			"value": "//h4[text()='What do you like to see and do?']"
+		}
+	},
+	
+	{
+		"name": "yourVacation.days.Nowplanninglabel",
+		"lookupdetails": {
+			"findBy": "xpath",
+			"value": "//span[text()='NOW PLANNING']"
+		}
+	},
+	{
+		"name": "yourVacation.month.PlanaVactionlabel",
+		"lookupdetails": {
+			"findBy": "xpath",
+			"value": "//span[text()='PLAN A VACATION TO']"
+		}
+	},
+	
+	{
+		"name": "yourVacation.month.value",
+		"lookupdetails": {
+			"findBy": "xpath",
+			"value": "//input[@type='radio']/following-sibling::div/label/i"
+		}
+	},
+		{
+		"name": "yourVacation.month.label",
+		"lookupdetails": {
+			"findBy": "xpath",
+			"value": "//input[@type='radio']"
+		}
+	},
+		{
+		"name": "yourVacation.days.label",
+		"lookupdetails": {
+			"findBy": "xpath",
+			"value": "//input[@type='radio']/following-sibling::div/label/p"
+		}
+	},
+	{
+		"name": "yourVacation.days.value",
+		"lookupdetails": {
+			"findBy": "xpath",
+			"value": "//input[@type='radio']/following-sibling::div/label/i"
+		}
+	},
+
+		{
+		"name": "yourVacation.wouldLikeToSee.label",
+		"lookupdetails": {
+			"findBy": "xpath",
+			"value": "//input[@type='checkbox']/following-sibling::div/label/p"
+		}
+	},
+	{
+		"name": "yourVacation.wouldLikeToSee.value",
+		"lookupdetails": {
+			"findBy": "xpath",
+			"value": "//input[@type='checkbox']/following-sibling::div/label/i"
+		}
+	},
+	
+	
+	{
+		"name": "customize.checkbox",
+		"lookupdetails": {
+			"findBy": "xpath",
+			"value": "(//input[@type='checkbox'])[1]"
+		}
+	},
+	{
+		"name": "getIternaryDetailsButton",
+		"lookupdetails": {
+			"findBy": "xpath",
+			"value": "//button/span[text()='Get a Pickyourtrail itinerary']"
+		}
+	},
+	{
+		"name": "GetTripCostButton",
+		"lookupdetails": {
+			"findBy": "xpath",
+			"value": "//button[text()='Get trip cost']"
+		}
+	},{
+		"name": "ItenaryPage.Tooltip",
+		"lookupdetails": {
+			"findBy": "xpath",
+			"value": "//*[contains(text(),'Got It')]"
+		}
+	}
+	,{
+		"name": "ItenaryPage.editButton.clickable",
+		"lookupdetails": {
+			"findBy": "xpath",
+			"value": "//h1[@id='title_editable']/following-sibling::i"
+		}
+	}
+	,{
+		"name": "ItenaryPage.editButton",
+		"lookupdetails": {
+			"findBy": "xpath",
+			"value": "//h1[@id='title_editable']"
+		}
+	}
+	,{
+		"name": "Departingdetails.departfrom.input",
+		"lookupdetails": {
+			"findBy": "xpath",
+			"value": "//input[@placeholder='Departing from']"
+		}
+	}
+	,{
+		"name": "Departingdetails.departfrom.searchCities",
+		"lookupdetails": {
+			"findBy": "xpath",
+			"value": "//input[@placeholder='Search cities']"
+		}
+	}
+	,{
+		"name": "Departingdetails.departfrom.searchCities.dropdown",
+		"lookupdetails": {
+			"findBy": "xpath",
+			"value": "//ul[@class='sc-csuQGl bPxkAh']/li"
+		}
+	}
+	
+,{
+		"name": "Departingdetails.departfrom.forhoneymoonsearchCities.dropdown",
+		"lookupdetails": {
+			"findBy": "xpath",
+			"value": "//ul[@class='sc-Rmtcm hbIDQt']/li/span"
+		}
+	}
+	
+,
+	{
+		"name": "GetCostButton",
+		"lookupdetails": {
+			"findBy": "xpath",
+			"value": "//button[text()='Get Cost']"
+		}
+	}	
+	
+	
+	
+	,{
+		"name": "GetLatestCostButton",
+		"lookupdetails": {
+			"findBy": "xpath",
+			"value": "//button[text()='Get latest cost']"
+		}
+	}	
+	
+	
+	
+	,{
+		"name": "ItineraryButton",
+		"lookupdetails": {
+			"findBy": "xpath",
+			"value": "//li[@class='active']/a[text()='Itinerary']"
+		}
+	}
+	,{
+		"name": "InclusionButton",
+		"lookupdetails": {
+			"findBy": "xpath",
+			"value": "//li[@class='active']/a[text()='Inclusions']"
+		}
+	}	
+	,{
+		"name": "homePage.honeymoonlabel",
+		"lookupdetails": {
+			"findBy": "xpath",
+			"value": "//h3[text()='Honeymoon Deals']"
+		}
+	}
+	,{
+		"name": "homePage.honeymoonlink",
+		"lookupdetails": {
+			"findBy": "xpath",
+			"value": "(//div[@class='holiday-card fw n-tracker-romanticholidays-card'])[1]"
+		}
+	}
+	
+	
+
+]
